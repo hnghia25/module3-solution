@@ -1,0 +1,134 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: #e9e0e3;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #a70d3b;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding: 25px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Helvetica Neue",Helvetica,Arial,sans-serif', serif;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#menu-categories-title {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.menu-item-description {
+    background-color: pink;
+    margin-bottom: 20px;
+    margin: 10px;
+}
+
+.menu-item-details {
+    padding: 20px;
+    padding-top: 10px;
+    height: 480px;
+}
+
+.collapsable-nav {
+    margin-top: 100px;
+    background-color: purple;
+    display: block;
+    clear: both;
+}
+
+/* #main-content{
+    
+} */
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+#nav-list a {
+    color: black;
+    text-align: center;
+}
+
+.menu-fomat{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+h3.menu-item-title {
+    margin: 0 0 10px;
+  }
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand {
+        height: 70px;
+    }
+    .menu-item-details{
+        height: 620px;
+    }
+
+    .navbar-brand h1 {
+        line-height: .75;
+    }
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        height: 70px;
+    }
+
+    .menu-item-details{
+        height: auto;
+    }
+
+    .navbar-brand h1 {
+        line-height: .75;
+    }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    #collapsable-nav a {
+        /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+
+    .menu-item-details{
+        height: auto;
+    }
+
+    .navbar-brand h1 {
+        line-height: .55;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {}
